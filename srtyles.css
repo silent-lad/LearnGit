@@ -1,0 +1,24 @@
+.trigger {
+    background-color: rgba(108, 116, 109, 0.637);
+    border: 20px solid rgb(84, 88, 84);
+    top: 40px;
+    left: 40px;
+    width: 200px;
+    height: 200px;
+    position: fixed;
+}
+
+body{
+background-color: black;
+}
+.box {
+    display: inline-block;
+    background-color:pink;
+    width: 200px;
+    height: 200px;
+    transition: transform 500ms cubic-bezier(0.6, 0.52, 0.15, 1.66);
+}
+
+.change .box{
+    transform: translate(200px, 200px) rotate(20deg);
+}
